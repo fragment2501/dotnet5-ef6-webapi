@@ -6,7 +6,7 @@ using bsr_dotnet_ef6_webapi.Dal.Models;
 
 namespace bsr_dotnet_ef6_webapi.Dal
 {
-  public class BloggingContext : DbContext, IBloggingContext
+  public class BloggingContext : DbContext
   {
     public DbSet<Blog> Blogs { get; set; }
     public DbSet<Post> Posts { get; set; }
